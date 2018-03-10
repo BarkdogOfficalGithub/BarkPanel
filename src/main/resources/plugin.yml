@@ -1,4 +1,4 @@
-name: JPanel
+name: BarkPanel
 version: 1.0-Beta8
 description: Adds a web panel to a minecraft server.
 author: rymate1234
@@ -8,12 +8,12 @@ main: net.rymate.jpanel.PanelPlugin
 softdepend: [Vault]
 
 commands:
-  jpanel:
-    description: Information about the current JPanel install
+  barkpanel:
+    description: Information about the current BarkPanel install
     usage: /<command>
   addlogin:
-    description: Adds a user to jPanel
+    description: Adds a user to BarkPanel
     usage: /<command> [username] [password]
   passwd:
-    description: Change the password for a JPanel user
+    description: Change the password for a BarkPanel user
     usage: /<command> [username] [oldpassword] [newpassword]
